@@ -74,5 +74,8 @@
   "lint-staged": {
     "src/*.{js, ts}": "yarn lint --cache",
     "*.": "yarn format"
+  },
+  "engines": {
+    "node": "^16"
   }
 }
